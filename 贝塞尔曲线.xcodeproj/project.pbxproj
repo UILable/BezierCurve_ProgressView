@@ -14,6 +14,7 @@
 		8BD5F2861BA92395008BE3FE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BD5F2851BA92395008BE3FE /* Images.xcassets */; };
 		8BD5F2891BA92395008BE3FE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BD5F2871BA92395008BE3FE /* LaunchScreen.xib */; };
 		8BD5F2951BA92395008BE3FE /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BD5F2941BA92395008BE3FE /* _____Tests.m */; };
+		8BD5F2A01BA923F1008BE3FE /* ProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BD5F29F1BA923F1008BE3FE /* ProgressView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		8BD5F28E1BA92395008BE3FE /* 贝塞尔曲线Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "贝塞尔曲线Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BD5F2931BA92395008BE3FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BD5F2941BA92395008BE3FE /* _____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____Tests.m"; sourceTree = "<group>"; };
+		8BD5F29E1BA923F1008BE3FE /* ProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressView.h; sourceTree = "<group>"; };
+		8BD5F29F1BA923F1008BE3FE /* ProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				8BD5F27D1BA92395008BE3FE /* AppDelegate.m */,
 				8BD5F27F1BA92395008BE3FE /* ViewController.h */,
 				8BD5F2801BA92395008BE3FE /* ViewController.m */,
+				8BD5F29E1BA923F1008BE3FE /* ProgressView.h */,
+				8BD5F29F1BA923F1008BE3FE /* ProgressView.m */,
 				8BD5F2821BA92395008BE3FE /* Main.storyboard */,
 				8BD5F2851BA92395008BE3FE /* Images.xcassets */,
 				8BD5F2871BA92395008BE3FE /* LaunchScreen.xib */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BD5F2811BA92395008BE3FE /* ViewController.m in Sources */,
+				8BD5F2A01BA923F1008BE3FE /* ProgressView.m in Sources */,
 				8BD5F27E1BA92395008BE3FE /* AppDelegate.m in Sources */,
 				8BD5F27B1BA92395008BE3FE /* main.m in Sources */,
 			);
